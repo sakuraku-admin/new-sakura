@@ -359,7 +359,7 @@ export default function SakurakuTopPage() {
       <section className="relative isolate overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/salon-bg.jpg')" }}
+          style={{ backgroundImage: "url('/bg-main.jpg')" }}
         />
         <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(35,28,24,0.52),rgba(50,38,32,0.58))]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,248,234,0.18),transparent_45%)]" />
