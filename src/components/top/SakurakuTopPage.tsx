@@ -361,8 +361,7 @@ export default function SakurakuTopPage() {
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: "url('/bg-main.jpg')" }}
         />
-        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(35,28,24,0.52),rgba(50,38,32,0.58))]" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,248,234,0.18),transparent_45%)]" />
+        
 
         <div className="relative mx-auto flex min-h-[100svh] max-w-7xl items-center px-4 py-8 sm:px-6 lg:px-8">
           <div className="grid w-full gap-8 lg:grid-cols-[1.15fr_0.85fr] lg:gap-10">
@@ -372,24 +371,7 @@ export default function SakurakuTopPage() {
               transition={{ duration: 0.55 }}
               className="flex items-center"
             >
-              <div className="max-w-3xl rounded-[32px] border border-white/20 bg-black/12 p-6 shadow-2xl backdrop-blur-[3px] sm:p-8 lg:p-10">
-                <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-4 py-2 text-xs tracking-[0.22em] text-[#F3EEE5] uppercase">
-                  <Leaf className="h-4 w-4" />
-                  Private Seitai Salon
-                </div>
-
-                <p className="text-base leading-8 text-[#A8BD91] sm:text-lg md:text-xl">
-                  ～巡り、あたため、身体を深く整える～
-                </p>
-                <p className="mt-4 whitespace-pre-line text-xl leading-9 text-[#E9D6C3] sm:text-2xl sm:leading-10 md:text-3xl md:leading-[3rem]">
-                  日々の疲れやつらさをほどいて
-                  ふっと楽になる時間を
-                </p>
-                <p className="mt-8 text-sm tracking-[0.25em] text-[#E8DDCF] sm:text-base">プライベート整体サロン</p>
-                <h1 className="mt-2 bg-[linear-gradient(135deg,#D98886_10%,#BF6D75_45%,#E7A79B_85%)] bg-clip-text text-5xl font-semibold tracking-[0.1em] text-transparent sm:text-6xl md:text-7xl">
-                  さく楽
-                </h1>
-
+             
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Button
                     type="button"
